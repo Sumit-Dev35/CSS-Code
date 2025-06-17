@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: inline-grid;
+  border: 1px solid black;
+}
+
+.child{
+  margin: 10px 20px;
+  background-color: red;
+  color:white;
+  padding: 10px 20px;
+}
