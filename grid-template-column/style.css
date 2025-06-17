@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.parents{
+  display: grid;
+  width: 800px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 200px;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.child{
+  background-color: blue;
+  margin: 40px;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
