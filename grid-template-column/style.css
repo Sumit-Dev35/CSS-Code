@@ -20,3 +20,23 @@
   color: white;
   text-align: center;
 }
+
+.parentss{
+  display: grid;
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.childs{
+  background-color:blueviolet;
+  text-align: center;
+  color: white;
+  padding: 40px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
